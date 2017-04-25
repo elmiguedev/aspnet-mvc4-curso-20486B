@@ -9,9 +9,9 @@ namespace PhotosMVC.Models
     public class PhotoSharingDB : DbContext
     {
         public PhotoSharingDB()
-            : base("PhotoSharingConnectionString")
-        {
-
+        : base("PhotoSharingConnectionString") {
+            
+            //Database.SetInitializer(new PhotoSharingInitializer());
         }
 
         public DbSet<Photo> Photos { get; set; }

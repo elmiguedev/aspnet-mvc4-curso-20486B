@@ -17,8 +17,8 @@ namespace PhotosMVC.Models
         {
             base.Seed(context);
 
-            var photos = new List<Photo> { 
-              
+            var photos = new List<Photo> {
+
                 new Photo()
                 {
                     Title = "Bulbasaur",

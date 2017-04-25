@@ -1,0 +1,15 @@
+﻿@model PhotosMVC.Models.Photo
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<p>
+    Esta seguro de que desea eliminar la photo?
+    @using (Html.BeginForm())
+    {
+        <input type="submit" value="Delete" />
+    }
+</p>
+
+<h2>Delete</h2>
