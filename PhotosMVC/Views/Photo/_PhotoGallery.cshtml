@@ -1,0 +1,40 @@
+﻿@model IEnumerable<PhotosMVC.Models.Photo>
+<div class="row">
+
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-3">
+
+            <!-- Titulo de la imagen-->
+            <div>
+                <img width="24" src="~/images/pokeball.png" />
+                <label style="font-size:large">@item.Title</label>
+            </div>
+            
+
+            <!-- Imagen -->
+            <img height="150" src="@Url.Action("GetImage","Photo",new { id = item.PhotoID})" />
+            <br />
+
+            <!-- Info -->
+            <label>Created By: </label><span>@Html.DisplayFor(model => item.UserName)</span><br />
+            <label>Created On: </label><span>@Html.DisplayFor(model => item.CreatedDate)</span><br />
+
+
+            <!-- Acciones-->
+            <div>
+                @Html.ActionLink("Display", "Display", new { id = item.PhotoID })
+                <span>|</span>
+                @Html.ActionLink("Edit", "Edit", new { id = item.PhotoID })
+                <span>|</span>
+                @Html.ActionLink("Delete", "Delete", new { id = item.PhotoID })
+            </div>
+
+        </div>
+
+
+    }
+
+</div>
+
+

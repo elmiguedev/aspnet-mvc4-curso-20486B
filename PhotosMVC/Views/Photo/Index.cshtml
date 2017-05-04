@@ -1,57 +1,22 @@
-﻿@model IEnumerable<PhotosMVC.Models.Photo>
-
+﻿@model PhotosMVC.Models.Photo
 @{
-    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    ViewBag.Title = "All photos";
 }
 
-<h2>Index</h2>
+<div class="row">
+    <div class="col-sm-12">
+        <h1>
+            <span>@ViewBag.Title</span>
+            @Html.ActionLink("Add a photo", "Create", "Photo", new { @class = "btn btn-primary pull-right" })
+        </h1>
+        <hr />
+    </div>
+</div>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table>
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Title)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ImageMimeType)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Description)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CreatedDate)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.UserName)
-        </th>
-        <th></th>
-    </tr>
+<div class="row">
+    <div class="col-sm-12">
+        @Html.Action("_PhotoGallery", "Photo")
+    </div>
+</div>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Title)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ImageMimeType)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Description)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CreatedDate)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.UserName)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.PhotoID }) |
-            @Html.ActionLink("Display", "Display", new { id=item.PhotoID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.PhotoID })
-        </td>
-    </tr>
-}
-
-</table>

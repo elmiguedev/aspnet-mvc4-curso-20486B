@@ -11,9 +11,9 @@ namespace PhotosMVC.Models
     /// El objetivo de esta clase es inicializar la base de datos
     /// con datos basicos para poder trabajar
     /// </summary>
-    public class PhotoSharingInitializer : DropCreateDatabaseAlways<PhotoSharingDB>
+    public class PhotoSharingInitializer : DropCreateDatabaseAlways<PhotoSharingContext>
     {
-        protected override void Seed(PhotoSharingDB context)
+        protected override void Seed(PhotoSharingContext context)
         {
             base.Seed(context);
 

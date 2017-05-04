@@ -4,6 +4,8 @@ C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\P
 C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\EntityFramework.dll
 C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\EntityFramework.SqlServer.dll
 C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\MvcSiteMapProvider.dll
+C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\MvcSiteMapProvider.WebActivator.dll
 C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\Newtonsoft.Json.dll
 C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\System.Net.Http.Formatting.dll
 C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\System.Web.Helpers.dll
@@ -14,8 +16,12 @@ C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\S
 C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\System.Web.WebPages.Deployment.dll
 C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\System.Web.WebPages.dll
 C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\WebActivatorEx.dll
+C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\Microsoft.Web.Administration.dll
 C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\EntityFramework.xml
 C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\MvcSiteMapProvider.xml
+C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\MvcSiteMapProvider.WebActivator.xml
 C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\Newtonsoft.Json.xml
 C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\System.Net.Http.Formatting.xml
 C:\Users\mmoya\Documents\RepositorioGit\aspnet-mvc4-curso-20486B\PhotosMVC\bin\System.Web.Helpers.xml
